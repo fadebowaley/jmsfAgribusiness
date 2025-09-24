@@ -1,0 +1,42 @@
+{
+  "name": "agrilo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^16.1.3",
+    "@fontsource/roboto": "^5.2.6",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@headlessui/react": "^2.2.7",
+    "@tailwindcss/vite": "^4.1.11",
+    "contentful": "^11.7.17",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.2",
+    "framer-motion": "^12.23.6",
+    "lucide-react": "^0.525.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.7.0",
+    "swiper": "^11.2.10",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "vite": "^5.4.10"
+  }
+}
