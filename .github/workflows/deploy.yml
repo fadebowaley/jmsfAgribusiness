@@ -33,13 +33,13 @@ jobs:
     - name: Deploy to Namecheap
       run: |
         # Create deployment directory if it doesn't exist
-        ssh -o StrictHostKeyChecking=no ${{ secrets.NAMECHEAP_SSH_USER }}@${{ secrets.NAMECHEAP_SSH_HOST }} "mkdir -p public_html"
+        ssh -o StrictHostKeyChecking=no -p 21098 ${{ secrets.NAMECHEAP_SSH_USER }}@${{ secrets.NAMECHEAP_SSH_HOST }} "mkdir -p public_html"
         
         # Copy built files to server
-        scp -o StrictHostKeyChecking=no -r dist/* ${{ secrets.NAMECHEAP_SSH_USER }}@${{ secrets.NAMECHEAP_SSH_HOST }}:public_html/
+        scp -o StrictHostKeyChecking=no -P 21098 -r dist/* ${{ secrets.NAMECHEAP_SSH_USER }}@${{ secrets.NAMECHEAP_SSH_HOST }}:public_html/
         
         # Set proper permissions
-        ssh -o StrictHostKeyChecking=no ${{ secrets.NAMECHEAP_SSH_USER }}@${{ secrets.NAMECHEAP_SSH_HOST }} "chmod -R 755 public_html"
+        ssh -o StrictHostKeyChecking=no -p 21098 ${{ secrets.NAMECHEAP_SSH_USER }}@${{ secrets.NAMECHEAP_SSH_HOST }} "chmod -R 755 public_html"
         
     - name: Deployment Success
       run: echo "✅ Deployment completed successfully to jmsfagribusiness.com"

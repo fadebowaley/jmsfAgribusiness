@@ -20,10 +20,10 @@ echo "✅ Build completed successfully!"
 echo "🌐 Deploying to Namecheap server..."
 
 # Create deployment directory if it doesn't exist
-ssh -o StrictHostKeyChecking=no jmsfzikd@66.29.132.130 "mkdir -p public_html"
+ssh -i ~/.ssh/jmsf_deploy -o StrictHostKeyChecking=no -p 21098 jmsfzikd@66.29.132.130 "mkdir -p public_html"
 
 # Copy built files to server
-scp -o StrictHostKeyChecking=no -r dist/* jmsfzikd@66.29.132.130:public_html/
+scp -i ~/.ssh/jmsf_deploy -o StrictHostKeyChecking=no -P 21098 -r dist/* jmsfzikd@66.29.132.130:public_html/
 
 if [ $? -ne 0 ]; then
     echo "❌ Deployment failed. Please check your SSH connection and try again."
@@ -31,7 +31,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Set proper permissions
-ssh -o StrictHostKeyChecking=no jmsfzikd@66.29.132.130 "chmod -R 755 public_html"
+ssh -i ~/.ssh/jmsf_deploy -o StrictHostKeyChecking=no -p 21098 jmsfzikd@66.29.132.130 "chmod -R 755 public_html"
 
 echo "✅ Deployment completed successfully!"
 echo "🌐 Your website is now live at: https://jmsfagribusiness.com"
