@@ -42,7 +42,7 @@
         "image": "/public/home-slider/slides1.jpg",
         "description": "Partnering with farmers and investors to create sustainable agricultural value chains across Nigeria and West Africa.",
         "primaryCta": "Our Services",
-        "primaryCtaLink": "/home-slider/services",
+        "primaryCtaLink": "/services",
         "secondaryCta": "Learn More",
         "secondaryCtaLink": "/about"
       },
@@ -104,13 +104,14 @@
       "Agro-Tourism", 
       "Training & Capacity Building",
       "Market Development",
+      "Renewable Energy",
       "Research & Development"
     ],
     "images": {
       "Agricultural Advisory": [
         {
           "id": 1,
-          "src": "/public/slides1.jpg",
+          "src": "/public/home-slider/slides1.jpg",
           "title": "Farm Consultation Session",
           "description": "Expert advisory session with local farmers",
           "date": "2024-01-15",
@@ -120,7 +121,7 @@
         },
         {
           "id": 2,
-          "src": "/public/slides2.jpg",
+          "src": "/public/home-slider/slides2.jpg",
           "title": "Crop Assessment",
           "description": "Field assessment and crop evaluation",
           "date": "2024-01-20",
@@ -130,7 +131,7 @@
         },
         {
           "id": 3,
-          "src": "/public/slides3.jpg",
+          "src": "/public/home-slider/slides3.jpg",
           "title": "Soil Analysis",
           "description": "Soil testing and analysis for optimal farming",
           "date": "2024-02-01",
@@ -142,7 +143,7 @@
       "Agro-Tourism": [
         {
           "id": 4,
-          "src": "/public/slides4.jpg",
+          "src": "/public/home-slider/slides4.jpg",
           "title": "Farm Tour Experience",
           "description": "Educational farm tour for visitors",
           "date": "2024-02-10",
