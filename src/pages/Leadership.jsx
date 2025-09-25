@@ -217,7 +217,6 @@ function Leadership(){
             </div>
           </div>
         </motion.section>
-      </motion.section>
 
       <Footer />
     </>
