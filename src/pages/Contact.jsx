@@ -148,9 +148,7 @@ function Contact(){
               className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Enhanced Contact Form */}
               <div className="bg-white rounded-2xl p-8 shadow-lg border border-green-100">
-                <h3 className="text-2xl font-bold text-gray-800 mb-6 font-[Poppins]">
-                  Send Us a Message
-                </h3>
+             
                 <Form />
               </div>
 
@@ -259,9 +257,10 @@ function Contact(){
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-green-100">
-              <Map />
-            </div>
+            <div className="w-full bg-white rounded-2xl overflow-hidden shadow-lg border border-green-100">
+  <Map />
+</div>
+
           </div>
         </motion.section>
 
