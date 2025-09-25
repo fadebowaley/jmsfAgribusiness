@@ -2,7 +2,6 @@ import React from 'react';
 import { motion } from "framer-motion";
 import { Users, Award, Star, ChevronRight } from "lucide-react";
 import Footer from '../components/Footer';
-import TeamGrid from '../components/LeadershipGrid';
 import MainNav from '../components/MainNav';
 import Hero from "../components/Hero";
 import imagesData from '../data/images.json';
@@ -115,7 +114,7 @@ function Leadership(){
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-              {teamMembers.map((member, index) => (
+              {teamMembers.map((member) => (
                 <motion.div
                   key={member.id}
                   variants={fadeInUp}
@@ -217,6 +216,7 @@ function Leadership(){
             </div>
           </div>
         </motion.section>
+      </section>
 
       <Footer />
     </>
