@@ -187,8 +187,16 @@
         "facebook": "#",
         "twitter": "#",
         "img": "/team/placeholder-member-8.jpg",
-        "bio": "Overseeing daily operations and ensuring project delivery excellence",
-        "featured": false
+      {
+        "id": 4,
+        "name": "John Lampam",
+        "position": "Technical Director",
+        "linkedin": "#",
+        "facebook": "#",
+        "twitter": "#",
+        "img": "/john.png?v=1758792944806?v=1758793136724",
+        "bio": "Technical expert with extensive experience in agricultural systems",
+        "featured": true
       }
     ]
   },
