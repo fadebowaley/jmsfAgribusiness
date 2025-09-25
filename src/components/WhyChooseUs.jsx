@@ -5,11 +5,11 @@ import {
   Shield,
   Scale,
   Leaf,
-  Ban,
   Lightbulb,
   Users,
+  Award,
 } from "lucide-react";
-import gardener from "../assets/gardener.png";
+import imagesData from "../data/images.json";
 
 const coreValues = [
   {
@@ -29,164 +29,109 @@ const coreValues = [
   {
     title: "Integrity",
     description:
-      "We fulfill every obligation with precision and protect all sensitive client information with unwavering discipline.",
+      "We fulfill our obligations with precision and protect sensitive client information, ensuring trust and reliability in every engagement.",
     icon: Shield,
     color: "from-purple-500 to-purple-600",
   },
   {
     title: "Fair Trade",
     description:
-      "Objectivity, consistency, and fairness are non-negotiable in all client and stakeholder engagements throughout transactions.",
+      "Objectivity, consistency, and fairness are non-negotiable in all our client and stakeholder engagements, fostering equitable partnerships.",
     icon: Scale,
     color: "from-orange-500 to-orange-600",
   },
   {
     title: "Sustainability",
     description:
-      "Every solution we offer is built to last — protecting current needs while safeguarding future generations.",
+      "Our solutions are built to last, protecting current needs while safeguarding future generations through environmentally conscious practices.",
     icon: Leaf,
-    color: "from-emerald-500 to-emerald-600",
-  },
-  {
-    title: "Environmental Protection",
-    description:
-      "If a project threatens the environment and we can't offer a safer alternative, we prioritize ecological preservation.",
-    icon: Ban,
-    color: "from-red-500 to-red-600",
-  },
-  {
-    title: "Innovation",
-    description:
-      "We deliver creative, strategic, and tech-savvy solutions that make a measurable impact across agricultural value chains.",
-    icon: Lightbulb,
-    color: "from-yellow-500 to-yellow-600",
+    color: "from-green-500 to-green-600",
   },
 ];
 
+const container = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
+
+const fadeInUp = {
+  hidden: { opacity: 0, y: 30 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+};
+
 function WhyChooseUs() {
+  // Get main image from JSON data
+  const mainImage = imagesData.aboutPage.whyChooseUs.mainImage;
+
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <section className="py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-green-50/30">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-16 items-start">
-          {/* Enhanced Content Section */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="space-y-8">
-            {/* Header */}
-            <div>
-              <div className="flex items-center gap-3 mb-6">
-                <Users className="w-8 h-8 text-green-600" />
-                <span className="text-green-600 font-semibold text-lg uppercase tracking-wider">
-                  Why Choose Us
-                </span>
-              </div>
+        <motion.div variants={fadeInUp} className="text-center mb-12">
+          <div className="flex items-center justify-center gap-3 mb-6">
+            <div className="w-16 h-1 bg-green-600 rounded-full"></div>
+            <Lightbulb className="w-8 h-8 text-green-600" />
+            <div className="w-16 h-1 bg-green-600 rounded-full"></div>
+          </div>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-6 font-[Poppins] max-w-4xl mx-auto leading-tight">
+            Why Choose
+            <span className="text-green-600"> JMSF Agribusiness?</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            Our commitment to excellence, integrity, and sustainable impact
+            sets us apart. Discover the core values that drive our success
+            and benefit our partners.
+          </p>
+        </motion.div>
 
-              <h2 className="text-4xl sm:text-5xl font-bold text-gray-800 mb-6 font-[Poppins] leading-tight">
-                <span className="border-b-4 border-green-600 pb-2 inline-block">
-                  People
-                </span>{" "}
-                Choose Us
-              </h2>
-
-              <p className="text-xl text-gray-600 leading-relaxed mb-12">
-                We've built a reputation for excellence, reliability, and
-                customer satisfaction. Our team delivers decades of experience,
-                tailored strategies, and award-winning service into every
-                project.
-              </p>
-            </div>
-
-            {/* Enhanced Values Grid */}
-            <div className="space-y-6">
-              {coreValues.map((val, idx) => {
-                const IconComponent = val.icon;
-                return (
-                  <motion.div
-                    key={idx}
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: idx * 0.1 }}
-                    className="group flex gap-6 p-6 bg-gradient-to-r from-gray-50 to-white rounded-2xl border border-gray-100 hover:shadow-lg hover:border-green-200 transition-all duration-300">
-                    <div className="flex-shrink-0">
-                      <div
-                        className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${val.color} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300`}>
-                        <IconComponent className="w-8 h-8 text-white" />
-                      </div>
-                    </div>
-
-                    <div className="flex-1">
-                      <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-green-600 transition-colors duration-300 font-[Poppins]">
-                        {val.title}
-                      </h3>
-                      <p className="text-gray-600 leading-relaxed">
-                        {val.description}
-                      </p>
-                    </div>
-                  </motion.div>
-                );
-              })}
-            </div>
-
-            {/* Stats Section */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.8 }}
-              className="bg-gradient-to-r from-green-50 to-green-100/50 rounded-2xl p-8 border border-green-200/50">
-              <h3 className="text-2xl font-bold text-gray-800 mb-6 font-[Poppins] text-center">
-                Our Track Record
-              </h3>
-              <div className="grid grid-cols-2 gap-6">
-                {[
-                  { number: "15+", label: "Years Experience" },
-                  { number: "500+", label: "Farmers Supported" },
-                  { number: "₦500M+", label: "Value Created" },
-                  { number: "100%", label: "Client Satisfaction" },
-                ].map((stat, index) => (
-                  <div key={index} className="text-center">
-                    <div className="text-3xl font-bold text-green-600 mb-1 font-[Poppins]">
-                      {stat.number}
-                    </div>
-                    <div className="text-sm font-medium text-gray-700">
-                      {stat.label}
-                    </div>
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          {/* Left Column: Core Values */}
+          <motion.div variants={container} initial="hidden" animate="show" className="space-y-8">
+            {coreValues.map((value, index) => {
+              const IconComponent = value.icon;
+              return (
+                <motion.div
+                  key={index}
+                  variants={fadeInUp}
+                  className="flex items-start gap-6 p-6 bg-white rounded-2xl shadow-lg border border-gray-200 hover:shadow-xl transition-shadow duration-300">
+                  <div
+                    className={`flex-shrink-0 w-16 h-16 rounded-2xl bg-gradient-to-r ${value.color} flex items-center justify-center`}>
+                    <IconComponent className="w-8 h-8 text-white" />
                   </div>
-                ))}
-              </div>
-            </motion.div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3 font-[Poppins]">
+                      {value.title}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      {value.description}
+                    </p>
+                  </div>
+                </motion.div>
+              );
+            })}
           </motion.div>
 
-          {/* Enhanced Image Section */}
+          {/* Right Column: Image Section */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="relative">
-            <div className="relative">
-              <div className="overflow-hidden rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500">
-                <img
-                  src={gardener}
-                  alt="Agricultural Excellence - JMSF Team"
-                  className="w-full h-[600px] object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-green-600/30 to-transparent"></div>
-              </div>
-
-              {/* Floating Achievement Card */}
-              <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl p-6 shadow-2xl border border-green-100">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-green-600 rounded-xl flex items-center justify-center">
-                    <TrendingUp className="w-6 h-6 text-white" />
-                  </div>
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="relative flex justify-center items-center">
+            <div className="relative w-full max-w-md">
+              <img
+                src={mainImage.src}
+                alt={mainImage.alt}
+                className="w-full h-[768px] object-cover rounded-3xl shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500"
+              />
+              <div className="absolute -bottom-8 -left-8 bg-green-600 p-6 rounded-xl shadow-xl transform -rotate-6 hover:rotate-0 transition-transform duration-500">
+                <div className="flex items-center gap-3">
+                  <Award className="w-8 h-8 text-white" />
                   <div>
-                    <div className="text-2xl font-bold text-gray-800 font-[Poppins]">
-                      15+
-                    </div>
-                    <div className="text-sm text-gray-600 font-medium">
-                      Years of Excellence
-                    </div>
+                    <h4 className="text-2xl font-bold text-white">15+ Years</h4>
+                    <p className="text-green-100 text-sm">of Excellence</p>
                   </div>
                 </div>
               </div>

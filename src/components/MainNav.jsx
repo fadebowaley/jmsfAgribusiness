@@ -37,7 +37,8 @@ const MainNav = () => {
       name: 'NEWS AND MEDIA', 
       path: '/blogs',
       dropdown: [
-        { name: 'Blog', path: '/blogs' }
+        { name: 'Blog', path: '/blogs' },
+        { name: 'Photo Galleries', path: '/photo-galleries' }
       ] 
     },
     { name: 'Contact us', path: '/contact', dropdown: null },

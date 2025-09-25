@@ -132,7 +132,7 @@ const projects = [
     id: 6,
     name: "Tomato Industry Position Paper: Market-Oriented Policy Framework",
     dates: "November 2021",
-    client: "JMSF Agribusiness Nigeria",
+    client: "The GB Foods Nigeria",
     category: "Policy Development",
     status: "Completed",
     brief: "Development of strategic policy recommendations to make the Nigerian tomato sector work better for industry players and stimulate economic growth, value addition, and job creation.",
@@ -143,9 +143,9 @@ const projects = [
       "Import substitution strategy recommendations",
       "Smallholder farmer empowerment guidelines"
     ],
-    contact: "Richard Ogundele",
-    email: "Richard.ogundele@jmsfagribusiness.com",
-    phone: "+2348129460848",
+    contact: "Dr Ted Ngu",
+    email: "Tngu@thegbfoods.com",
+    phone: "+2348058021258",
     impact: "Medium",
     scope: "National"
   },
