@@ -41,5 +41,9 @@ jobs:
         # Set proper permissions
         ssh -o StrictHostKeyChecking=no -p 21098 ${{ secrets.NAMECHEAP_SSH_USER }}@${{ secrets.NAMECHEAP_SSH_HOST }} "chmod -R 755 public_html"
         
+        # Clear server cache (if available)
+        ssh -o StrictHostKeyChecking=no -p 21098 ${{ secrets.NAMECHEAP_SSH_USER }}@${{ secrets.NAMECHEAP_SSH_HOST }} "find public_html -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' | head -10"
+        
     - name: Deployment Success
       run: echo "✅ Deployment completed successfully to jmsfagribusiness.com"
+      run: echo "🔄 If images don't appear, try hard refresh (Ctrl+F5 or Cmd+Shift+R)"
