@@ -1,43 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaLinkedin, FaFacebookF,FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaFacebookF, FaTwitter } from 'react-icons/fa';
 import { Users, ChevronRight } from "lucide-react";
+import imagesData from '../data/images.json';
 
 const Team = () => {
-  const teamMembers = [
-    {
-      name: "Tolu Kuku",
-      position: "Project Manager",
-      linkedin: "#",
-      facebook: "#",
-      twitter: "#",
-      img: "/tolukuku.png" // Placeholder image URL
-    },
-    {
-      name: "Richard Ogundele",
-      position: "MD/CEO",
-      linkedin: "#",
-      facebook: "#",
-      twitter: "#",
-      img: "/richard.png" // Placeholder image URL
-    },
-    {
-      name: "Abisola Grace Ilufoye",
-      position: "Business Development and Corporate Communications Manager",
-      linkedin: "#",
-      facebook: "#",
-      twitter: "#", 
-      img: "/abisola.jpeg" // Placeholder image URL
-    },
-    {
-      name: "John Lampam",
-      position: "Technical Director",
-      linkedin: "#",
-      facebook: "#",
-      twitter: "#",
-      img: "/john.png" // Placeholder image URL
-    }
-  ];
+  // Get team members from JSON data
+  const teamMembers = imagesData.teamMembers.leadership;
 
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50/30 to-gray-50">
@@ -68,7 +37,7 @@ const Team = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {teamMembers.map((member, index) => (
             <div
-              key={index}
+              key={member.id}
               className="group bg-white rounded-2xl p-8 transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 border border-green-100/50">
               <div className="flex flex-col items-center text-center">
                 {/* Profile Image */}
