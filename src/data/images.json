@@ -1,7 +1,7 @@
 {
   "aboutPage": {
     "heroImage": {
-      "src": "/public/banner.jpg?v=1758792944806?v=1758793136724",
+      "src": "/banner.jpg?v=1758792944806?v=1758793136724",
       "alt": "JMSF Agribusiness About Us",
       "title": "About JMSF Agribusiness"
     },
@@ -9,7 +9,7 @@
       "sliderImages": [
         {
           "id": 1,
-          "src": "/public/about/banner-1.jpg?v=1758792944806?v=1758793136724",
+          "src": "/about/banner-1.jpg?v=1758792944806?v=1758793136724",
           "alt": "JMSF Agribusiness Heritage",
           "title": "Our Heritage",
           "description": "15+ years of agricultural excellence",
@@ -17,7 +17,7 @@
         },
         {
           "id": 2,
-          "src": "/public/about/banner-2.jpg?v=1758792944806?v=1758793136724",
+          "src": "/about/banner-2.jpg?v=1758792944806?v=1758793136724",
           "alt": "Agricultural Excellence",
           "title": "Our Impact",
           "description": "Transforming Nigeria's agricultural landscape",
@@ -25,7 +25,7 @@
         },
         {
           "id": 3,
-          "src": "/public/about/richard-banner.jpeg?v=1758792944806?v=1758793136724",
+          "src": "/about/richard-banner.jpeg?v=1758792944806?v=1758793136724",
           "alt": "Leadership Excellence",
           "title": "Our Leadership",
           "description": "Expert leadership driving agricultural transformation",
@@ -35,7 +35,7 @@
     },
     "whyChooseUs": {
       "mainImage": {
-        "src": "/public/gardener.png?v=1758792944806?v=1758793136724",
+        "src": "/gardener.png?v=1758792944806?v=1758793136724",
         "alt": "Why Choose JMSF Agribusiness",
         "title": "Expert Agricultural Services"
       }
@@ -47,7 +47,7 @@
         "id": 1,
         "title": "Transforming Nigerian Agriculture",
         "subtitle": "Sustainable Market-Driven Solutions",
-        "image": "/public/home-slider/slides1.jpg?v=1758792944806?v=1758793136724",
+        "image": "/home-slider/slides1.jpg?v=1758792944806?v=1758793136724",
         "description": "Partnering with farmers and investors to create sustainable agricultural value chains across Nigeria and West Africa.",
         "primaryCta": "Our Services",
         "primaryCtaLink": "/services",
@@ -58,7 +58,7 @@
         "id": 2,
         "title": "Expert Agricultural Advisory",
         "subtitle": "Value Chain & Market Development",
-        "image": "/public/home-slider/slides2.jpg?v=1758792944806?v=1758793136724",
+        "image": "/home-slider/slides2.jpg?v=1758792944806?v=1758793136724",
         "description": "We partner with institutions, local and international investors entering the Nigerian, ECOWAS, and African agribusiness markets.",
         "primaryCta": "Get Consultation",
         "primaryCtaLink": "/book-consultation",
@@ -69,7 +69,7 @@
         "id": 3,
         "title": "Strategic Business Planning",
         "subtitle": "Development of Business Cases & Sectoral Opportunities",
-        "image": "/public/home-slider/slides3.jpg?v=1758792944806?v=1758793136724",
+        "image": "/home-slider/slides3.jpg?v=1758792944806?v=1758793136724",
         "description": "Comprehensive policy analysis, market systems research, feasibility studies and strategic business planning for agricultural ventures.",
         "primaryCta": "Learn More",
         "primaryCtaLink": "/about",
@@ -80,7 +80,7 @@
         "id": 4,
         "title": "Professional Advisory Services",
         "subtitle": "Agricultural Consulting & Market Intelligence",
-        "image": "/public/home-slider/slides4.jpg?v=1758792944806?v=1758793136724",
+        "image": "/home-slider/slides4.jpg?v=1758792944806?v=1758793136724",
         "description": "Expert market systems research, feasibility analysis, and comprehensive business advisory services for the agricultural sector.",
         "primaryCta": "Contact Us",
         "primaryCtaLink": "/contact",
@@ -91,7 +91,7 @@
         "id": 5,
         "title": "Building Strategic Partnerships",
         "subtitle": "Collaborative Agricultural Excellence",
-        "image": "/public/home-slider/slides5.jpg?v=1758792944806?v=1758793136724",
+        "image": "/home-slider/slides5.jpg?v=1758792944806?v=1758793136724",
         "description": "Connecting stakeholders across the agricultural value chain to create lasting partnerships that drive sustainable development and economic growth.",
         "primaryCta": "Our Partners",
         "primaryCtaLink": "/patners",
@@ -109,7 +109,7 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/public/richard.png?v=1758792944806?v=1758793136724",
+        "img": "/richard.png?v=1758792944806?v=1758793136724",
         "bio": "Experienced leader with over 15 years in agricultural development",
         "featured": true
       },
@@ -120,7 +120,7 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/public/tolukuku.png?v=1758792944806?v=1758793136724",
+        "img": "/tolukuku.png?v=1758792944806?v=1758793136724",
         "bio": "Expert in project management and agricultural consulting",
         "featured": true
       },
@@ -131,7 +131,7 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/public/abisola.jpeg?v=1758792944806?v=1758793136724",
+        "img": "/abisola.jpeg?v=1758792944806?v=1758793136724",
         "bio": "Specialist in business development and corporate communications",
         "featured": true
       },
@@ -142,7 +142,7 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/public/john.png?v=1758792944806?v=1758793136724",
+        "img": "/john.png?v=1758792944806?v=1758793136724",
         "bio": "Technical expert with extensive experience in agricultural systems",
         "featured": true
       }
@@ -153,7 +153,7 @@
       "heroTitle": "Photo Galleries",
       "heroSubtitle": "Capturing Our Impact Through Visual Stories",
       "heroDescription": "Explore our comprehensive photo galleries showcasing successful projects across different service categories. From agricultural advisory to renewable energy initiatives, see how we're transforming Nigeria's agricultural landscape.",
-      "heroImage": "/public/banner.jpg?v=1758792944806?v=1758793136724"
+      "heroImage": "/banner.jpg?v=1758792944806?v=1758793136724"
     },
     "categories": [
       "Agricultural Advisory",
@@ -167,7 +167,7 @@
       "Agricultural Advisory": [
         {
           "id": 1,
-          "src": "/public/home-slider/slides1.jpg?v=1758792944806?v=1758793136724",
+          "src": "/home-slider/slides1.jpg?v=1758792944806?v=1758793136724",
           "title": "Farm Consultation Session",
           "description": "Expert advisory session with local farmers",
           "date": "2024-01-15",
@@ -177,7 +177,7 @@
         },
         {
           "id": 2,
-          "src": "/public/home-slider/slides2.jpg?v=1758792944806?v=1758793136724",
+          "src": "/home-slider/slides2.jpg?v=1758792944806?v=1758793136724",
           "title": "Crop Assessment",
           "description": "Field assessment and crop evaluation",
           "date": "2024-01-20",
@@ -187,7 +187,7 @@
         },
         {
           "id": 3,
-          "src": "/public/home-slider/slides3.jpg?v=1758792944806?v=1758793136724",
+          "src": "/home-slider/slides3.jpg?v=1758792944806?v=1758793136724",
           "title": "Soil Analysis",
           "description": "Soil testing and analysis for optimal farming",
           "date": "2024-02-01",
@@ -199,7 +199,7 @@
       "Agro-Tourism": [
         {
           "id": 4,
-          "src": "/public/home-slider/slides4.jpg?v=1758792944806?v=1758793136724",
+          "src": "/home-slider/slides4.jpg?v=1758792944806?v=1758793136724",
           "title": "Farm Tour Experience",
           "description": "Educational farm tour for visitors",
           "date": "2024-02-10",
@@ -209,7 +209,7 @@
         },
         {
           "id": 5,
-          "src": "/public/about.jpg?v=1758792944806?v=1758793136724",
+          "src": "/about.jpg?v=1758792944806?v=1758793136724",
           "title": "Rural Tourism",
           "description": "Promoting rural tourism and cultural exchange",
           "date": "2024-02-15",
@@ -221,7 +221,7 @@
       "Training & Capacity Building": [
         {
           "id": 6,
-          "src": "/public/blog1.jpeg?v=1758792944806?v=1758793136724",
+          "src": "/blog1.jpeg?v=1758792944806?v=1758793136724",
           "title": "Farmer Training Workshop",
           "description": "Capacity building for smallholder farmers",
           "date": "2024-02-20",
@@ -231,7 +231,7 @@
         },
         {
           "id": 7,
-          "src": "/public/blog2.png?v=1758792944806?v=1758793136724",
+          "src": "/blog2.png?v=1758792944806?v=1758793136724",
           "title": "Youth Empowerment Program",
           "description": "Training young people in agricultural skills",
           "date": "2024-03-01",
@@ -241,7 +241,7 @@
         },
         {
           "id": 8,
-          "src": "/public/blog3.jpg?v=1758792944806?v=1758793136724",
+          "src": "/blog3.jpg?v=1758792944806?v=1758793136724",
           "title": "Women in Agriculture",
           "description": "Empowering women in agricultural practices",
           "date": "2024-03-05",
@@ -253,7 +253,7 @@
       "Market Development": [
         {
           "id": 9,
-          "src": "/public/blog4.png?v=1758792944806?v=1758793136724",
+          "src": "/blog4.png?v=1758792944806?v=1758793136724",
           "title": "Market Linkage Program",
           "description": "Connecting farmers to markets",
           "date": "2024-03-10",
@@ -263,7 +263,7 @@
         },
         {
           "id": 10,
-          "src": "/public/banner.jpg?v=1758792944806?v=1758793136724",
+          "src": "/banner.jpg?v=1758792944806?v=1758793136724",
           "title": "Commodity Trading",
           "description": "Facilitating commodity trading activities",
           "date": "2024-03-15",
@@ -275,7 +275,7 @@
       "Renewable Energy": [
         {
           "id": 11,
-          "src": "/public/agricAdvisory.png?v=1758792944806?v=1758793136724",
+          "src": "/agricAdvisory.png?v=1758792944806?v=1758793136724",
           "title": "Solar Irrigation Project",
           "description": "Implementing solar-powered irrigation systems",
           "date": "2024-03-20",
@@ -285,7 +285,7 @@
         },
         {
           "id": 12,
-          "src": "/public/renewableEnergy.png?v=1758792944806?v=1758793136724",
+          "src": "/renewableEnergy.png?v=1758792944806?v=1758793136724",
           "title": "Clean Energy Initiative",
           "description": "Promoting renewable energy in agriculture",
           "date": "2024-03-25",
@@ -297,7 +297,7 @@
       "Research & Development": [
         {
           "id": 13,
-          "src": "/public/partner1.png?v=1758792944806?v=1758793136724",
+          "src": "/partner1.png?v=1758792944806?v=1758793136724",
           "title": "Agricultural Research",
           "description": "Conducting field research on crop varieties",
           "date": "2024-04-01",
@@ -307,7 +307,7 @@
         },
         {
           "id": 14,
-          "src": "/public/partner2.png?v=1758792944806?v=1758793136724",
+          "src": "/partner2.png?v=1758792944806?v=1758793136724",
           "title": "Innovation Lab",
           "description": "Developing new agricultural technologies",
           "date": "2024-04-05",
@@ -321,7 +321,7 @@
       "Agricultural Advisory": [
         {
           "id": "placeholder-1",
-          "src": "/public/placeholder-agricultural.jpg?v=1758792944806?v=1758793136724",
+          "src": "/placeholder-agricultural.jpg?v=1758792944806?v=1758793136724",
           "title": "Add New Agricultural Advisory Image",
           "description": "Click to add a new image for Agricultural Advisory services",
           "date": "2024-01-01",
@@ -334,7 +334,7 @@
       "Agro-Tourism": [
         {
           "id": "placeholder-2",
-          "src": "/public/placeholder-agrotourism.jpg?v=1758792944806?v=1758793136724",
+          "src": "/placeholder-agrotourism.jpg?v=1758792944806?v=1758793136724",
           "title": "Add New Agro-Tourism Image",
           "description": "Click to add a new image for Agro-Tourism activities",
           "date": "2024-01-01",
@@ -347,7 +347,7 @@
       "Training & Capacity Building": [
         {
           "id": "placeholder-3",
-          "src": "/public/placeholder-training.jpg?v=1758792944806?v=1758793136724",
+          "src": "/placeholder-training.jpg?v=1758792944806?v=1758793136724",
           "title": "Add New Training Image",
           "description": "Click to add a new image for Training & Capacity Building",
           "date": "2024-01-01",
@@ -360,7 +360,7 @@
       "Market Development": [
         {
           "id": "placeholder-4",
-          "src": "/public/placeholder-market.jpg?v=1758792944806?v=1758793136724",
+          "src": "/placeholder-market.jpg?v=1758792944806?v=1758793136724",
           "title": "Add New Market Development Image",
           "description": "Click to add a new image for Market Development",
           "date": "2024-01-01",
@@ -373,7 +373,7 @@
       "Renewable Energy": [
         {
           "id": "placeholder-5",
-          "src": "/public/placeholder-energy.jpg?v=1758792944806?v=1758793136724",
+          "src": "/placeholder-energy.jpg?v=1758792944806?v=1758793136724",
           "title": "Add New Renewable Energy Image",
           "description": "Click to add a new image for Renewable Energy projects",
           "date": "2024-01-01",
@@ -386,7 +386,7 @@
       "Research & Development": [
         {
           "id": "placeholder-6",
-          "src": "/public/placeholder-research.jpg?v=1758792944806?v=1758793136724",
+          "src": "/placeholder-research.jpg?v=1758792944806?v=1758793136724",
           "title": "Add New Research Image",
           "description": "Click to add a new image for Research & Development",
           "date": "2024-01-01",
