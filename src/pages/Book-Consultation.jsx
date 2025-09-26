@@ -80,8 +80,8 @@ function BookConsultation() {
       popular: false,
     },
     {
-      type: "Startups",
-      price: "$25.00",
+      type: "Cooperatives",
+      price: "$40.00",
       description: "1-hour consultation session",
       requirement: "Registration proof (under 18 months)",
       icon: Rocket,

@@ -1,5 +1,6 @@
 import React from "react";
-import {FaFacebookF, FaTwitter, FaGooglePlusG, FaPinterestP, FaInstagram} from "react-icons/fa"; // Import any specific icons if needed
+import {FaFacebookF, FaGooglePlusG, FaPinterestP, FaInstagram} from "react-icons/fa";
+import { FaX } from "react-icons/fa6"; // Import any specific icons if needed
 import { GrSend } from "react-icons/gr";
 import {Link} from 'react-router-dom';
 
@@ -20,7 +21,7 @@ const Footer = () => {
                 <FaFacebookF size={20} />
               </a>
               <a href="#" className="hover:text-green-600 transition">
-                <FaTwitter size={20} />
+                <FaX size={20} />
               </a>
               <a href="#" className="hover:text-green-600 transition">
                 <FaGooglePlusG size={20} />
