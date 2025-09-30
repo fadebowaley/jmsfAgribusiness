@@ -109,7 +109,7 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/team/richard.png?v=1758792944806?v=1758793136724",
+        "img": "/richard.png?v=1758792944806?v=1758793136724",
         "bio": "Experienced leader with over 15 years in agricultural development",
         "featured": true
       },
@@ -120,7 +120,7 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/team/tolukuku.png?v=1758792944806?v=1758793136724",
+        "img": "/tolukuku.png?v=1758792944806?v=1758793136724",
         "bio": "Expert in project management and agricultural consulting",
         "featured": true
       },
@@ -131,7 +131,7 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/team/abisola.jpeg?v=1758792944806?v=1758793136724",
+        "img": "/abisola.jpeg?v=1758792944806?v=1758793136724",
         "bio": "Specialist in business development and corporate communications",
         "featured": true
       },
@@ -142,52 +142,60 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/team/john.png?v=1758792944806?v=1758793136724",
+        "img": "/john.png?v=1758792944806?v=1758793136724",
         "bio": "Technical expert with extensive experience in agricultural systems",
         "featured": true
       },
       {
         "id": 5,
-        "name": "Sheriff Mohammed",
-        "position": "FMCG and Micro-Retailing Expertca",
+        "name": "Dr. Sarah Johnson",
+        "position": "Head of Research & Development",
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/team/sherrif.jpeg?v=1758792944806?v=1758793136724",
+        "img": "/team/placeholder-member-5.jpg",
         "bio": "Leading research initiatives in sustainable agricultural practices and innovation",
-        "featured": true
+        "featured": false
       },
       {
         "id": 6,
-        "name": "Solomon Niyi",
-        "position": "Value Chain Development and Financial Modelling Expert.",
+        "name": "Michael Chen",
+        "position": "Senior Agricultural Consultant",
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/team/solomon-niyi.jpeg?v=1758792944806?v=1758793136724",
+        "img": "/team/placeholder-member-6.jpg",
         "bio": "Expert in crop management and agricultural technology implementation",
-        "featured": true
+        "featured": false
       },
       {
         "id": 7,
-        "name": "David Oyeniyi",
-        "position": "Finance and Admin Manager",
+        "name": "Dr. Fatima Al-Hassan",
+        "position": "Market Development Specialist",
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/team/david-oyeniyi.jpeg?v=1758792944806?v=1758793136724",
+        "img": "/team/placeholder-member-7.jpg",
         "bio": "Specializing in market analysis and agricultural value chain development",
-        "featured": true
+        "featured": false
       },
       {
         "id": 8,
-        "name": "Tijani Mohammed",
-        "position": "Commodity Aggregation Coordinator.",
+        "name": "James Okafor",
+        "position": "Operations Manager",
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/team/tijani.jpeg?v=1758792944806?v=1758793136724",
-        "bio": "Overseeing daily operations and ensuring project delivery excellence",
+        "img": "/team/placeholder-member-8.jpg",
+      {
+        "id": 4,
+        "name": "John Lampam",
+        "position": "Technical Director",
+        "linkedin": "#",
+        "facebook": "#",
+        "twitter": "#",
+        "img": "/john.png?v=1758792944806?v=1758793136724",
+        "bio": "Technical expert with extensive experience in agricultural systems",
         "featured": true
       }
     ]
@@ -204,6 +212,7 @@
       "Agro-Tourism",
       "Training & Capacity Building",
       "Market Development",
+      "Renewable Energy",
       "Research & Development"
     ],
     "images": {

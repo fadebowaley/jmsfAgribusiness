@@ -45,7 +45,7 @@ function Info() {
               target="_blank"
               className="bg-white inline-block border px-[7px] hover:text-white text-[#1fa12e] rounded-[5px] hover:bg-[#1fa12e] py-[4px] border-[#1fa12e]"
             >
-              <i className="fab fa-twitter  "></i>
+              <i className="fax fa-twitter  "></i>
             </a>
             <a
               href="#"

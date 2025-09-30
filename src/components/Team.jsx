@@ -6,7 +6,7 @@ import imagesData from '../data/images.json';
 
 const Team = () => {
   // Get team members from JSON data
-  const teamMembers = imagesData.teamMembers.leadership;
+  const teamMembers = imagesData.teamMembers.leadership.filter(member => member.featured);
 
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50/30 to-gray-50">
