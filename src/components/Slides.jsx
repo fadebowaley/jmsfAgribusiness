@@ -8,6 +8,7 @@ import {
 } from "swiper/modules";
 import { Link } from "react-router-dom";
 import { ArrowRight, ChevronRight, Play, Users } from "lucide-react";
+import imagesData from "../data/images.json";
 
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -15,70 +16,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/parallax";
 
-const slides = [
-  {
-    id: 1,
-    title: "Transforming Nigerian Agriculture",
-    subtitle: "Sustainable Market-Driven Solutions",
-    image: "/slides1.jpg",
-    description:
-      "Partnering with farmers and investors to create sustainable agricultural value chains across Nigeria and West Africa.",
-    primaryCta: "Our Services",
-    primaryCtaLink: "/services",
-    secondaryCta: "Learn More",
-    secondaryCtaLink: "/about",
-  },
-  {
-    id: 2,
-    title: "Expert Agricultural Advisory",
-    subtitle: "Value Chain & Market Development",
-    image: "/slides2.jpg",
-    description:
-      "We partner with institutions, local and international investors entering the Nigerian, ECOWAS, and African agribusiness markets.",
-    primaryCta: "Get Consultation",
-    primaryCtaLink: "/book-consultation",
-    secondaryCta: "View Projects",
-    secondaryCtaLink: "/jobs-done",
-  },
-  {
-    id: 3,
-    title: "Strategic Business Planning",
-    subtitle: "Development of Business Cases & Sectoral Opportunities",
-    image: "/slides3.jpg",
-    description:
-      "Comprehensive policy analysis, market systems research, feasibility studies and strategic business planning for agricultural ventures.",
-    primaryCta: "Learn More",
-    primaryCtaLink: "/about",
-    secondaryCta: "Our Team",
-    secondaryCtaLink: "/leadership",
-  },
-  {
-    id: 4,
-    title: "Professional Advisory Services",
-    subtitle: "Agricultural Consulting & Market Intelligence",
-    image: "/slides4.jpg",
-    description:
-      "Expert market systems research, feasibility analysis, and comprehensive business advisory services for the agricultural sector.",
-    primaryCta: "Contact Us",
-    primaryCtaLink: "/contact",
-    secondaryCta: "Get Quote",
-    secondaryCtaLink: "/get-quote",
-  },
-  {
-    id: 5,
-    title: "Building Strategic Partnerships",
-    subtitle: "Collaborative Agricultural Excellence",
-    image: "/slides1.jpg", // You can change this to a different image later
-    description:
-      "Connecting stakeholders across the agricultural value chain to create lasting partnerships that drive sustainable development and economic growth.",
-    primaryCta: "Our Partners",
-    primaryCtaLink: "/partners",
-    secondaryCta: "Book Meeting",
-    secondaryCtaLink: "/book-consultation",
-  },
-];
-
 export default function Slides() {
+  // Get slides data from JSON
+  const slides = imagesData.homePage.heroSlides;
+
   return (
     <div className="w-full relative">
       <Swiper

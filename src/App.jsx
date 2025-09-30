@@ -17,6 +17,7 @@ import TeamGrid from './components/TeamGrid';
 import Quote from './pages/Get-Quote';
 import TeamProfile from './components/TeamProfile';
 import JobsDone from './pages/Jobs-Done'; // Import the JobsDone component
+import PhotoGalleries from './pages/PhotoGalleries'; // Import the PhotoGalleries component
 
 function Layout() {
   return (
@@ -36,6 +37,7 @@ function Layout() {
           <Route path="/services/:slug" element={<ServiceDetail />} />
           <Route path="/blogs" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/photo-galleries" element={<PhotoGalleries />} />
           <Route path="/book-consultation" element={<BookConsulation />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/get-quote" element={<Quote />} />

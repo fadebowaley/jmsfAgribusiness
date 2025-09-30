@@ -1,0 +1,444 @@
+{
+  "aboutPage": {
+    "heroImage": {
+      "src": "/banner.jpg?v=1758792944806?v=1758793136724",
+      "alt": "JMSF Agribusiness About Us",
+      "title": "About JMSF Agribusiness"
+    },
+    "companyHistory": {
+      "sliderImages": [
+        {
+          "id": 1,
+          "src": "/about/banner-1.jpg?v=1758792944806?v=1758793136724",
+          "alt": "JMSF Agribusiness Heritage",
+          "title": "Our Heritage",
+          "description": "15+ years of agricultural excellence",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "src": "/about/banner-2.jpg?v=1758792944806?v=1758793136724",
+          "alt": "Agricultural Excellence",
+          "title": "Our Impact",
+          "description": "Transforming Nigeria's agricultural landscape",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "src": "/about/richard-banner.jpeg?v=1758792944806?v=1758793136724",
+          "alt": "Leadership Excellence",
+          "title": "Our Leadership",
+          "description": "Expert leadership driving agricultural transformation",
+          "order": 3
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "mainImage": {
+        "src": "/gardener.png?v=1758792944806?v=1758793136724",
+        "alt": "Why Choose JMSF Agribusiness",
+        "title": "Expert Agricultural Services"
+      }
+    }
+  },
+  "homePage": {
+    "heroSlides": [
+      {
+        "id": 1,
+        "title": "Transforming Nigerian Agriculture",
+        "subtitle": "Sustainable Market-Driven Solutions",
+        "image": "/home-slider/slides1.jpg?v=1758792944806?v=1758793136724",
+        "description": "Partnering with farmers and investors to create sustainable agricultural value chains across Nigeria and West Africa.",
+        "primaryCta": "Our Services",
+        "primaryCtaLink": "/services",
+        "secondaryCta": "Learn More",
+        "secondaryCtaLink": "/about"
+      },
+      {
+        "id": 2,
+        "title": "Expert Agricultural Advisory",
+        "subtitle": "Value Chain & Market Development",
+        "image": "/home-slider/slides2.jpg?v=1758792944806?v=1758793136724",
+        "description": "We partner with institutions, local and international investors entering the Nigerian, ECOWAS, and African agribusiness markets.",
+        "primaryCta": "Get Consultation",
+        "primaryCtaLink": "/book-consultation",
+        "secondaryCta": "View Projects",
+        "secondaryCtaLink": "/jobs-done"
+      },
+      {
+        "id": 3,
+        "title": "Strategic Business Planning",
+        "subtitle": "Development of Business Cases & Sectoral Opportunities",
+        "image": "/home-slider/slides3.jpg?v=1758792944806?v=1758793136724",
+        "description": "Comprehensive policy analysis, market systems research, feasibility studies and strategic business planning for agricultural ventures.",
+        "primaryCta": "Learn More",
+        "primaryCtaLink": "/about",
+        "secondaryCta": "Our Team",
+        "secondaryCtaLink": "/leadership"
+      },
+      {
+        "id": 4,
+        "title": "Professional Advisory Services",
+        "subtitle": "Agricultural Consulting & Market Intelligence",
+        "image": "/home-slider/slides4.jpg?v=1758792944806?v=1758793136724",
+        "description": "Expert market systems research, feasibility analysis, and comprehensive business advisory services for the agricultural sector.",
+        "primaryCta": "Contact Us",
+        "primaryCtaLink": "/contact",
+        "secondaryCta": "Get Quote",
+        "secondaryCtaLink": "/get-quote"
+      },
+      {
+        "id": 5,
+        "title": "Building Strategic Partnerships",
+        "subtitle": "Collaborative Agricultural Excellence",
+        "image": "/home-slider/slides5.jpg?v=1758792944806?v=1758793136724",
+        "description": "Connecting stakeholders across the agricultural value chain to create lasting partnerships that drive sustainable development and economic growth.",
+        "primaryCta": "Our Partners",
+        "primaryCtaLink": "/patners",
+        "secondaryCta": "Book Meeting",
+        "secondaryCtaLink": "/book-consultation"
+      }
+    ]
+  },
+  "teamMembers": {
+    "leadership": [
+      {
+        "id": 1,
+        "name": "Richard Ogundele",
+        "position": "MD/CEO",
+        "linkedin": "#",
+        "facebook": "#",
+        "twitter": "#",
+        "img": "/team/richard.png?v=1758792944806?v=1758793136724",
+        "bio": "Experienced leader with over 15 years in agricultural development",
+        "featured": true
+      },
+      {
+        "id": 2,
+        "name": "Tolu Kuku",
+        "position": "Project Manager",
+        "linkedin": "#",
+        "facebook": "#",
+        "twitter": "#",
+        "img": "/team/tolukuku.png?v=1758792944806?v=1758793136724",
+        "bio": "Expert in project management and agricultural consulting",
+        "featured": true
+      },
+      {
+        "id": 3,
+        "name": "Abisola Grace Ilufoye",
+        "position": "Business Development and Corporate Communications Manager",
+        "linkedin": "#",
+        "facebook": "#",
+        "twitter": "#",
+        "img": "/team/abisola.jpeg?v=1758792944806?v=1758793136724",
+        "bio": "Specialist in business development and corporate communications",
+        "featured": true
+      },
+      {
+        "id": 4,
+        "name": "John Lampam",
+        "position": "Technical Director",
+        "linkedin": "#",
+        "facebook": "#",
+        "twitter": "#",
+        "img": "/team/john.png?v=1758792944806?v=1758793136724",
+        "bio": "Technical expert with extensive experience in agricultural systems",
+        "featured": true
+      },
+      {
+        "id": 5,
+        "name": "Sheriff Mohammed",
+        "position": "FMCG and Micro-Retailing Expertca",
+        "linkedin": "#",
+        "facebook": "#",
+        "twitter": "#",
+        "img": "/team/sherrif.jpeg?v=1758792944806?v=1758793136724",
+        "bio": "Leading research initiatives in sustainable agricultural practices and innovation",
+        "featured": true
+      },
+      {
+        "id": 6,
+        "name": "Solomon Niyi",
+        "position": "Value Chain Development and Financial Modelling Expert.",
+        "linkedin": "#",
+        "facebook": "#",
+        "twitter": "#",
+        "img": "/team/solomon-niyi.jpeg?v=1758792944806?v=1758793136724",
+        "bio": "Expert in crop management and agricultural technology implementation",
+        "featured": true
+      },
+      {
+        "id": 7,
+        "name": "David Oyeniyi",
+        "position": "Finance and Admin Manager",
+        "linkedin": "#",
+        "facebook": "#",
+        "twitter": "#",
+        "img": "/team/david-oyeniyi.jpeg?v=1758792944806?v=1758793136724",
+        "bio": "Specializing in market analysis and agricultural value chain development",
+        "featured": true
+      },
+      {
+        "id": 8,
+        "name": "Tijani Mohammed",
+        "position": "Commodity Aggregation Coordinator.",
+        "linkedin": "#",
+        "facebook": "#",
+        "twitter": "#",
+        "img": "/team/tijani.jpeg?v=1758792944806?v=1758793136724",
+        "bio": "Overseeing daily operations and ensuring project delivery excellence",
+        "featured": true
+      }
+    ]
+  },
+  "photoGallery": {
+    "pageSettings": {
+      "heroTitle": "Photo Galleries",
+      "heroSubtitle": "Capturing Our Impact Through Visual Stories",
+      "heroDescription": "Explore our comprehensive photo galleries showcasing successful projects across different service categories. From agricultural advisory to renewable energy initiatives, see how we're transforming Nigeria's agricultural landscape.",
+      "heroImage": "/banner.jpg?v=1758792944806?v=1758793136724"
+    },
+    "categories": [
+      "Agricultural Advisory",
+      "Agro-Tourism",
+      "Training & Capacity Building",
+      "Market Development",
+      "Research & Development"
+    ],
+    "images": {
+      "Agricultural Advisory": [
+        {
+          "id": 1,
+          "src": "/home-slider/slides1.jpg?v=1758792944806?v=1758793136724",
+          "title": "Farm Consultation Session",
+          "description": "Expert advisory session with local farmers",
+          "date": "2024-01-15",
+          "location": "Kaduna State",
+          "category": "Agricultural Advisory",
+          "featured": true
+        },
+        {
+          "id": 2,
+          "src": "/home-slider/slides2.jpg?v=1758792944806?v=1758793136724",
+          "title": "Crop Assessment",
+          "description": "Field assessment and crop evaluation",
+          "date": "2024-01-20",
+          "location": "Plateau State",
+          "category": "Agricultural Advisory",
+          "featured": false
+        },
+        {
+          "id": 3,
+          "src": "/home-slider/slides3.jpg?v=1758792944806?v=1758793136724",
+          "title": "Soil Analysis",
+          "description": "Soil testing and analysis for optimal farming",
+          "date": "2024-02-01",
+          "location": "Kano State",
+          "category": "Agricultural Advisory",
+          "featured": false
+        }
+      ],
+      "Agro-Tourism": [
+        {
+          "id": 4,
+          "src": "/home-slider/slides4.jpg?v=1758792944806?v=1758793136724",
+          "title": "Farm Tour Experience",
+          "description": "Educational farm tour for visitors",
+          "date": "2024-02-10",
+          "location": "Ogun State",
+          "category": "Agro-Tourism",
+          "featured": true
+        },
+        {
+          "id": 5,
+          "src": "/about.jpg?v=1758792944806?v=1758793136724",
+          "title": "Rural Tourism",
+          "description": "Promoting rural tourism and cultural exchange",
+          "date": "2024-02-15",
+          "location": "Osun State",
+          "category": "Agro-Tourism",
+          "featured": false
+        }
+      ],
+      "Training & Capacity Building": [
+        {
+          "id": 6,
+          "src": "/blog1.jpeg?v=1758792944806?v=1758793136724",
+          "title": "Farmer Training Workshop",
+          "description": "Capacity building for smallholder farmers",
+          "date": "2024-02-20",
+          "location": "Lagos State",
+          "category": "Training & Capacity Building",
+          "featured": true
+        },
+        {
+          "id": 7,
+          "src": "/blog2.png?v=1758792944806?v=1758793136724",
+          "title": "Youth Empowerment Program",
+          "description": "Training young people in agricultural skills",
+          "date": "2024-03-01",
+          "location": "Abuja",
+          "category": "Training & Capacity Building",
+          "featured": false
+        },
+        {
+          "id": 8,
+          "src": "/blog3.jpg?v=1758792944806?v=1758793136724",
+          "title": "Women in Agriculture",
+          "description": "Empowering women in agricultural practices",
+          "date": "2024-03-05",
+          "location": "Katsina State",
+          "category": "Training & Capacity Building",
+          "featured": false
+        }
+      ],
+      "Market Development": [
+        {
+          "id": 9,
+          "src": "/blog4.png?v=1758792944806?v=1758793136724",
+          "title": "Market Linkage Program",
+          "description": "Connecting farmers to markets",
+          "date": "2024-03-10",
+          "location": "Kano State",
+          "category": "Market Development",
+          "featured": true
+        },
+        {
+          "id": 10,
+          "src": "/banner.jpg?v=1758792944806?v=1758793136724",
+          "title": "Commodity Trading",
+          "description": "Facilitating commodity trading activities",
+          "date": "2024-03-15",
+          "location": "Lagos State",
+          "category": "Market Development",
+          "featured": false
+        }
+      ],
+      "Renewable Energy": [
+        {
+          "id": 11,
+          "src": "/agricAdvisory.png?v=1758792944806?v=1758793136724",
+          "title": "Solar Irrigation Project",
+          "description": "Implementing solar-powered irrigation systems",
+          "date": "2024-03-20",
+          "location": "Jigawa State",
+          "category": "Renewable Energy",
+          "featured": true
+        },
+        {
+          "id": 12,
+          "src": "/renewableEnergy.png?v=1758792944806?v=1758793136724",
+          "title": "Clean Energy Initiative",
+          "description": "Promoting renewable energy in agriculture",
+          "date": "2024-03-25",
+          "location": "Kaduna State",
+          "category": "Renewable Energy",
+          "featured": false
+        }
+      ],
+      "Research & Development": [
+        {
+          "id": 13,
+          "src": "/partner1.png?v=1758792944806?v=1758793136724",
+          "title": "Agricultural Research",
+          "description": "Conducting field research on crop varieties",
+          "date": "2024-04-01",
+          "location": "Ibadan, Oyo State",
+          "category": "Research & Development",
+          "featured": true
+        },
+        {
+          "id": 14,
+          "src": "/partner2.png?v=1758792944806?v=1758793136724",
+          "title": "Innovation Lab",
+          "description": "Developing new agricultural technologies",
+          "date": "2024-04-05",
+          "location": "Abuja",
+          "category": "Research & Development",
+          "featured": false
+        }
+      ]
+    },
+    "placeholderImages": {
+      "Agricultural Advisory": [
+        {
+          "id": "placeholder-1",
+          "src": "/placeholder-agricultural.jpg?v=1758792944806?v=1758793136724",
+          "title": "Add New Agricultural Advisory Image",
+          "description": "Click to add a new image for Agricultural Advisory services",
+          "date": "2024-01-01",
+          "location": "Add Location",
+          "category": "Agricultural Advisory",
+          "featured": false,
+          "isPlaceholder": true
+        }
+      ],
+      "Agro-Tourism": [
+        {
+          "id": "placeholder-2",
+          "src": "/placeholder-agrotourism.jpg?v=1758792944806?v=1758793136724",
+          "title": "Add New Agro-Tourism Image",
+          "description": "Click to add a new image for Agro-Tourism activities",
+          "date": "2024-01-01",
+          "location": "Add Location",
+          "category": "Agro-Tourism",
+          "featured": false,
+          "isPlaceholder": true
+        }
+      ],
+      "Training & Capacity Building": [
+        {
+          "id": "placeholder-3",
+          "src": "/placeholder-training.jpg?v=1758792944806?v=1758793136724",
+          "title": "Add New Training Image",
+          "description": "Click to add a new image for Training & Capacity Building",
+          "date": "2024-01-01",
+          "location": "Add Location",
+          "category": "Training & Capacity Building",
+          "featured": false,
+          "isPlaceholder": true
+        }
+      ],
+      "Market Development": [
+        {
+          "id": "placeholder-4",
+          "src": "/placeholder-market.jpg?v=1758792944806?v=1758793136724",
+          "title": "Add New Market Development Image",
+          "description": "Click to add a new image for Market Development",
+          "date": "2024-01-01",
+          "location": "Add Location",
+          "category": "Market Development",
+          "featured": false,
+          "isPlaceholder": true
+        }
+      ],
+      "Renewable Energy": [
+        {
+          "id": "placeholder-5",
+          "src": "/placeholder-energy.jpg?v=1758792944806?v=1758793136724",
+          "title": "Add New Renewable Energy Image",
+          "description": "Click to add a new image for Renewable Energy projects",
+          "date": "2024-01-01",
+          "location": "Add Location",
+          "category": "Renewable Energy",
+          "featured": false,
+          "isPlaceholder": true
+        }
+      ],
+      "Research & Development": [
+        {
+          "id": "placeholder-6",
+          "src": "/placeholder-research.jpg?v=1758792944806?v=1758793136724",
+          "title": "Add New Research Image",
+          "description": "Click to add a new image for Research & Development",
+          "date": "2024-01-01",
+          "location": "Add Location",
+          "category": "Research & Development",
+          "featured": false,
+          "isPlaceholder": true
+        }
+      ]
+    }
+  }
+}
