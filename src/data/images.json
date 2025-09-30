@@ -155,7 +155,7 @@
         "twitter": "#",
         "img": "/team/placeholder-member-5.jpg",
         "bio": "Leading research initiatives in sustainable agricultural practices and innovation",
-        "featured": false
+        "featured": true
       },
       {
         "id": 6,
@@ -166,7 +166,7 @@
         "twitter": "#",
         "img": "/team/placeholder-member-6.jpg",
         "bio": "Expert in crop management and agricultural technology implementation",
-        "featured": false
+        "featured": true
       },
       {
         "id": 7,
@@ -177,7 +177,7 @@
         "twitter": "#",
         "img": "/team/placeholder-member-7.jpg",
         "bio": "Specializing in market analysis and agricultural value chain development",
-        "featured": false
+        "featured": true
       },
       {
         "id": 8,
@@ -188,7 +188,7 @@
         "twitter": "#",
         "img": "/team/placeholder-member-8.jpg",
         "bio": "Overseeing daily operations and ensuring project delivery excellence",
-        "featured": false
+        "featured": true
       }
     ]
   },
@@ -204,7 +204,6 @@
       "Agro-Tourism",
       "Training & Capacity Building",
       "Market Development",
-      "Renewable Energy",
       "Research & Development"
     ],
     "images": {
