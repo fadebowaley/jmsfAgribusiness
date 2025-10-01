@@ -46,4 +46,3 @@ jobs:
         
     - name: Deployment Success
       run: echo "✅ Deployment completed successfully to jmsfagribusiness.com"
-      run: echo "🔄 If images don't appear, try hard refresh (Ctrl+F5 or Cmd+Shift+R)"
