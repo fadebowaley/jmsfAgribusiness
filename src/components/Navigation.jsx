@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FaXTwitter } from "react-icons/fa6";
 import { Link, useLocation } from "react-router-dom";
 import {
   Mail,
@@ -57,7 +58,7 @@ const Navigation = () => {
           <span className="text-lg font-semibold italic text-gray-600">........Growing the Economy</span>
           <div className="flex gap-4 md:gap-6 items-center">
             <Facebook className="w-6 h-6" />
-            <Twitter className="w-6 h-6" />
+            <FaXTwitter  className="w-6 h-6" />
             <Linkedin className="w-6 h-6" />
             <Instagram className="w-6 h-6" />
           </div>

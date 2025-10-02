@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaLinkedin, FaFacebookF, FaTwitter } from 'react-icons/fa';
+import { FaLinkedin, FaFacebookF } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { Users, ChevronRight } from "lucide-react";
 import imagesData from '../data/images.json';
 
@@ -85,7 +86,7 @@ const Team = () => {
                       aria-label={`${member.name} Twitter`}
                       target="_blank"
                       rel="noopener noreferrer">
-                      <FaTwitter className="w-5 h-5 text-gray-600 group-hover/social:text-white transition-colors" />
+                      <FaXTwitter className="w-5 h-5 text-gray-600 group-hover/social:text-white transition-colors" />
                     </a>
                   </div>
                 )}

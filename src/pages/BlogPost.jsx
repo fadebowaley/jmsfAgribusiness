@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { CalendarDays, User2, Clock, ArrowLeft, Tag, Share2 } from 'lucide-react';
 import MainNav from '../components/MainNav';
 import Footer from '../components/Footer';
-import { getBlogPostBySlug, getBlogPosts } from '../services/contentful';
+// import { getBlogPostBySlug, getBlogPosts } from '../services/contentful';
 import { renderRichText, formatDate, calculateReadingTime } from '../utils/contentfulRenderer';
 
 function BlogPost() {
