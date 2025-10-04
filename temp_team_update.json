@@ -7,10 +7,10 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/richard.png?v=1758792944806?v=1758793136724",
+        "img": "/richard.png?v=1758792944806v=1758793136724",
         "bio": "Experienced leader with over 15 years in agricultural development",
         "featured": true
-      },
+      }
       {
         "id": 2,
         "name": "Tolu Kuku",
@@ -18,10 +18,10 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/tolukuku.png?v=1758792944806?v=1758793136724",
+        "img": "/tolukuku.png?v=1758792944806v=1758793136724",
         "bio": "Expert in project management and agricultural consulting",
         "featured": true
-      },
+      }
       {
         "id": 3,
         "name": "Abisola Grace Ilufoye",
@@ -29,7 +29,7 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/abisola.jpeg?v=1758792944806?v=1758793136724",
+        "img": "/abisola.jpeg?v=1758792944806v=1758793136724",
         "bio": "Specialist in business development and corporate communications",
         "featured": true
       },
@@ -40,14 +40,14 @@
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",
-        "img": "/john.png?v=1758792944806?v=1758793136724",
+        "img": "/john.png?v=175879294480v=1758793136724",
         "bio": "Technical expert with extensive experience in agricultural systems",
         "featured": true
       },
       {
         "id": 5,
-        "name": "Dr. Sarah Johnson",
-        "position": "Head of Research & Development",
+        "name": "Sheriff Mohammed ",
+        "position": "FMCG and Micro-Retailing Expert",
         "linkedin": "#",
         "facebook": "#",
         "twitter": "#",

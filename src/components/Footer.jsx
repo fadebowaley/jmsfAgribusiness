@@ -3,6 +3,7 @@ import {FaFacebookF, FaGooglePlusG, FaPinterestP, FaInstagram} from "react-icons
 import { FaX } from "react-icons/fa6"; // Import any specific icons if needed
 import { GrSend } from "react-icons/gr";
 import {Link} from 'react-router-dom';
+import AdminControls from './AdminControls';
 
 const Footer = () => {
   return (
@@ -35,6 +36,8 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="mb-4 md:mb-0">
+        </div>
         
         {/* Quick Links */}
         <div className="w-full md:w-[50%] lg:w-[22%]">
@@ -47,6 +50,7 @@ const Footer = () => {
             <li><Link to="/services" className="text-sm hover:text-green-600">Services</Link></li>
             <li><Link to="/contact" className="text-sm hover:text-green-600">Contact Us</Link></li>
           </ul>
+            <AdminControls />
         </div>
         
         {/* Tag Cloud */}

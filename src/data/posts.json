@@ -1,0 +1,38 @@
+[
+  {
+    "id": "intro-to-local-blogging-123",
+    "slug": "intro-to-local-blogging",
+    "title": "Introduction to Local JSON Blogging: Your New Workflow",
+    "author": { "name": "Admin User" },
+    "publishDate": "2023-10-27T10:00:00Z",
+    "excerpt": "<p>This is a brief overview of how we're building a blogging system using local JSON files and React, without a backend server. It's designed for full manual control and easy version tracking.</p>",
+    "content": "<h2>Welcome to Your New Local Blog!</h2><p>This post demonstrates our new, streamlined setup. All content is now managed directly via JSON files, giving you full ownership and flexibility.</p><blockquote><p>\"The best way to predict the future is to create it.\"</p><cite>- Peter Drucker</cite></blockquote><p>You can now <strong>edit</strong>, <strong>add</strong>, and <strong>delete</strong> posts directly within your browser interface. Once you're happy with your changes, simply <strong>export</strong> your data to a <code>posts.json</code> file for manual version control.</p><h3>Key Features of Your System:</h3><ul><li>**In-browser Editing:** Intuitive forms for content creation and modification.</li><li>**Manual JSON Export/Import:** Seamlessly manage your data as a physical file, great for backups and Git integration.</li><li>**Fast and Lightweight:** A purely client-side application ensures rapid performance.</li></ul><p>Enjoy building and managing your content!</p><p><strong>Example Image Showcase:</strong></p><figure><img src='https://images.unsplash.com/photo-1549692520-acc6669e2fde?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='Blog content example image' /><figcaption>A beautiful landscape, perfect for illustrating your articles.</figcaption></figure><p>This is a custom image added to demonstrate how embedded images will render with the <code>prose</code> styling. Notice how headings, paragraphs, lists, and blockquotes are automatically styled for readability.</p>",
+    "featuredImage": "https://images.unsplash.com/photo-1517430816045-df4b7de1101d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    "category": { "name": "Tutorials", "slug": "tutorials" },
+    "tags": ["local-storage", "react", "json", "workflow", "tutorial"]
+  },
+  {
+    "id": "mastering-local-content-management-456",
+    "slug": "mastering-local-content-management",
+    "title": "Mastering Local Content Management with React",
+    "author": { "name": "Jane Doe" },
+    "publishDate": "2023-11-05T14:30:00Z",
+    "excerpt": "<p>Dive deep into techniques for effectively managing your blog content directly on your machine. This guide will help you streamline your creative process.</p>",
+    "content": "<h2>Deep Dive into Local Content Management</h2><p>Now that you have the basic structure, let's explore how to optimize your local content management workflow. The key is understanding the relationship between your browser's local storage and your physical <code>posts.json</code> file.</p><h3>Best Practices:</h3><ol><li><strong>Regular Exports:</strong> After any significant changes, remember to click 'Export Posts as JSON'.</li><li><strong>Version Control:</strong> Commit your updated <code>posts.json</code> file to Git to track changes over time.</li><li><strong>Backup:</strong> Keep external backups of your <code>posts.json</code> file in case of accidental deletion from <code>localStorage</code>.</li></ol><p>This method, while requiring a manual export, offers unparalleled control and transparency over your blog's data. You're no longer dependent on external services or complex database setups.</p><p>Explore the full power of client-side content management!</p>",
+    "featuredImage": "https://images.unsplash.com/photo-1549692520-acc6669e2fde?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": { "name": "Content Strategy", "slug": "content-strategy" },
+    "tags": ["management", "data", "workflow", "tips"]
+  },
+  {
+    "id": "design-principles-for-blogs-789",
+    "slug": "design-principles-for-blogs",
+    "title": "Design Principles for Engaging Blog Articles",
+    "author": { "name": "Mark Design" },
+    "publishDate": "2023-09-15T09:00:00Z",
+    "excerpt": "<p>Learn about fundamental design principles that make your blog articles more readable, engaging, and professional. From typography to layout.</p>",
+    "content": "<h2>Crafting Visually Appealing Articles</h2><p>A great blog isn't just about compelling content; it's also about how that content is presented. Here are some key design principles:</p><h3>Typography Matters:</h3><ul><li><strong>Readability:</strong> Choose fonts that are easy on the eyes.</li><li><strong>Hierarchy:</strong> Use headings (<code>h1</code>, <code>h2</code>, etc.) to structure your content logically.</li><li><strong>Line Length:</strong> Optimal line length is crucial for reading comfort.</li></ul><h4>Layout and Whitespace:</h4><p>Don't be afraid of whitespace! It gives your content room to breathe and guides the reader's eye.</p><figure><img src='https://images.unsplash.com/photo-1563729780524-77e8a329d71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='Blog Design' /><figcaption>Clean design enhances readability and engagement.</figcaption></figure><p>By implementing these principles, you can transform a basic article into a professional and enjoyable reading experience.</p>",
+    "featuredImage": "https://images.unsplash.com/photo-1563729780524-77e8a329d71c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "category": { "name": "Design", "slug": "design" },
+    "tags": ["design", "ui/ux", "readability", "tips"]
+  }
+]
