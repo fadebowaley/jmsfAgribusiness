@@ -6,7 +6,7 @@ import imagesData from '../data/images.json';
 
 const Team = () => {
   // Get team members from JSON data
-  const teamMembers = imagesData.teamMembers.leadership.filter(member => member.featured);
+  const teamMembers = imagesData.teamMembers.leadership.filter(member => member.featured !== false);
 
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-50/30 to-gray-50">
@@ -34,7 +34,7 @@ const Team = () => {
         </div>
 
         {/* Team Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {teamMembers.map((member) => (
             <div
               key={member.id}

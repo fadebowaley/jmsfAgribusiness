@@ -23,7 +23,7 @@ const fadeInUp = {
 
 function Leadership(){
   // Get team members from JSON data
-  const teamMembers = imagesData.teamMembers.leadership.filter(member => member.featured);
+  const teamMembers = imagesData.teamMembers.leadership.filter(member => member.featured !== false);
 
   return (
     <>
